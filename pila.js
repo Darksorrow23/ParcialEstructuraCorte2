@@ -21,12 +21,12 @@ class Pila {
     }
 }
 
-// Ejemplo de uso
+
 const pila = new Pila();
 pila.push({ nombre: "Juan", edad: 30 });
 pila.push({ nombre: "María", edad: 25 });
-console.log(pila.pop()); // { nombre: "María", edad: 25 }
-console.log(pila.size()); // 1
-console.log(pila.isEmpty()); // false
+console.log(pila.pop()); 
+console.log(pila.size()); 
+console.log(pila.isEmpty()); 
 pila.pop();
-console.log(pila.isEmpty()); // true
+console.log(pila.isEmpty()); 
