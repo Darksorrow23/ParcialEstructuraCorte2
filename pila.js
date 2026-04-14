@@ -1,5 +1,3 @@
-//. Diseñar la lógica para simular una pila (agregar y eliminar), pero los elementos
-//que va a ingresar a la pila serán de tipo object 
 
 class Pila {
     constructor() {
